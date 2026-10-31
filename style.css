@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+
+}
+
+.container{
+max-width: 1320px;
+margin: 0 auto;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: center;
+
+}
+
+
+
+.banner{
+background-color: #AE1332;
+
+
+}
+
+.banner-title{
+font-family: DM Sans;
+font-weight: 500;
+font-style: Medium;
+font-size: 40px;
+line-height: 44px;
+letter-spacing: -4%;
+text-align: center;
+vertical-align: middle;
+text-transform: uppercase;
+color: #FFFFFF;
+margin-bottom: 14px;
+width: 48%;
+
+
+
+}
+.banner-text{
+    font-family: DM Sans;
+font-weight: 400;
+font-style: Regular;
+font-size: 14px;
+line-height: 18px;
+letter-spacing: -4%;
+text-align: center;
+vertical-align: middle;
+color: #FFFFFF;
+width: 39%;
+margin-bottom: 44px;
+
+}
+
+.banner-bottom{
+display: flex;
+justify-content: space-between;
+margin-bottom: 80px;
+
+}
+.banner-card{
+width: 31%;
+padding: 40px 20px;
+display: flex;
+gap: 14px;
+background-color: white;
+border-radius: 20px;
+
+
+}
+.banner-btn{
+font-family: DM Sans;
+font-weight: 400;
+font-style: Regular;
+font-size: 18px;
+line-height: 24px;
+letter-spacing: -4%;
+vertical-align: middle;
+color: #FFFFFF;
+width: 44%;
+background-color: black;
+padding: 12px 31px;
+border: none;
+border-radius: 30px;
+
+
+}
+.banner-bottom_text{
+font-family: DM Sans;
+font-weight: 400;
+font-style: Regular;
+font-size: 14px;
+line-height: 18px;
+letter-spacing: -4%;
+vertical-align: middle;
+color: #000000;
+width: 45%;
+
+
+
+}
+.red-btn{
+    background-color: #AE1332;
+}
+.green-btn{
+ background-color:  #A1C864;
+}
+
+.yellow-btn{
+background-color: #F5CE13;
+
+}
